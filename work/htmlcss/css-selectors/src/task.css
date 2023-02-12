@@ -10,26 +10,26 @@
   box-shadow: 0 0 0 5px gold, 0 0 10px 5px orange;
 }
 
-#task-1 /* @todo */ {
+#task-1 .covid.programmer {
   box-shadow: 0 0 0 5px gold, 0 0 10px 5px orange;
 }
 
-#task-2 /* @todo */ {
+#task-2 .covid:not(.vaccine, .sanitizer) {
   box-shadow: 0 0 0 5px gold, 0 0 10px 5px orange;
 }
 
-#task-3 /* @todo */ {
+#task-3 .covid.virus:last-of-type {
   box-shadow: 0 0 0 5px gold, 0 0 10px 5px orange;
 }
 
-#task-4 /* @todo */ {
+#task-4 .covid:not(.vaccine,.sanitizer) {
   box-shadow: 0 0 0 5px gold, 0 0 10px 5px orange;
 }
 
-#task-5 /* @todo */ {
+#task-5 > section.covid {
   box-shadow: 0 0 0 5px gold, 0 0 10px 5px orange;
 }
 
-#task-6 /* @todo */ {
+#task-6 section div[select="yes"]:only-child {
   box-shadow: 0 0 0 5px gold, 0 0 10px 5px orange;
 }
