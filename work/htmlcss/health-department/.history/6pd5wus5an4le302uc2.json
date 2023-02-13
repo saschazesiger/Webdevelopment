@@ -1,0 +1,102 @@
+{
+  "time": 1676303930,
+  "testResults": [
+    {
+      "group": "Health Department",
+      "points": 3,
+      "maxPoints": 11,
+      "strategy": "add",
+      "manualCheck": false,
+      "tests": [
+        {
+          "name": "body",
+          "points": 1,
+          "maxPoints": 1,
+          "successful": true,
+          "required": false,
+          "manualCheck": false
+        },
+        {
+          "name": "content",
+          "points": 0,
+          "maxPoints": 1,
+          "successful": false,
+          "required": false,
+          "manualCheck": false
+        },
+        {
+          "name": "top header",
+          "points": 0,
+          "maxPoints": 1,
+          "successful": false,
+          "required": false,
+          "manualCheck": false
+        },
+        {
+          "name": "(hard) breadcrumbs",
+          "points": 0,
+          "maxPoints": 1,
+          "successful": false,
+          "required": false,
+          "manualCheck": false
+        },
+        {
+          "name": "bottom header",
+          "points": 0,
+          "maxPoints": 1,
+          "successful": false,
+          "required": false,
+          "manualCheck": false
+        },
+        {
+          "name": "nav",
+          "points": 0,
+          "maxPoints": 1,
+          "successful": false,
+          "required": false,
+          "manualCheck": false
+        },
+        {
+          "name": "left panel",
+          "points": 0,
+          "maxPoints": 1,
+          "successful": false,
+          "required": false,
+          "manualCheck": false
+        },
+        {
+          "name": "right panel & 'all' link",
+          "points": 0,
+          "maxPoints": 1,
+          "successful": false,
+          "required": false,
+          "manualCheck": false
+        },
+        {
+          "name": "articles in left panel",
+          "points": 1,
+          "maxPoints": 1,
+          "successful": true,
+          "required": false,
+          "manualCheck": false
+        },
+        {
+          "name": "media in right panel",
+          "points": 0,
+          "maxPoints": 1,
+          "successful": false,
+          "required": false,
+          "manualCheck": false
+        },
+        {
+          "name": "footer",
+          "points": 1,
+          "maxPoints": 1,
+          "successful": true,
+          "required": false,
+          "manualCheck": false
+        }
+      ]
+    }
+  ]
+}

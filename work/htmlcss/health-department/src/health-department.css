@@ -139,16 +139,27 @@ nav li::after {
 }
 
 #title{
-  margin-bottom: 15px;
+  margin: 0 !important;
+}
+.article-wrapper{
+  display: flex;
+  flex-direction: row;
+
 }
 
 .article {
+  margin-top: 15px;
   min-width: 150px;
   height: 400px;
+  margin-left: 15px;
 }
 
 .article h3 {
   margin: 22px 0 11px 0;
+}
+
+.article img{
+  width: 100%;
 }
 
 .right .all {
@@ -164,6 +175,12 @@ nav li::after {
 
 .media h4 {
   margin: 10px 0 0;
+}
+
+.media{
+  margin-top: 15px;
+  border-bottom: 0px none rgb(69, 69, 69);
+  padding-bottom: 15px;
 }
 
 footer {
