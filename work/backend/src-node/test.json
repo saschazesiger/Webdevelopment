@@ -1,0 +1,14 @@
+{
+    "result": {
+        "id": "8103108a-a837-4b76-865f-d60948362a0a",
+        "content": "blabb\r\nblubb\r\nblobb\r\n",
+        "content_type": "text/plain",
+        "encoding": "UTF-8",
+        "expiration": "2032-01-31T22:59:35.000Z",
+        "title": "test title",
+        "created_at": "2022-01-07T22:59:35.000Z",
+        "updated_at": "2022-01-07T22:59:35.000Z",
+        "access_token": "dd4a3f94-5cfe-461f-b0dd-0879b76af109",
+        "edit_token": "be97b4a8-602c-4004-95ed-a37c6903d123"
+    }
+}

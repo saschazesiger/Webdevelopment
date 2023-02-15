@@ -21,7 +21,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `paste`
 (
     `id`           varchar(255)                                                NOT NULL,
-    `content`      mediumtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+    `content`      mediumtext CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
     `content_type` varchar(50)                                                 NOT NULL,
     `encoding`     varchar(20)                                                 NOT NULL,
     `expiration`   timestamp                                                   NOT NULL,
@@ -31,8 +31,8 @@ CREATE TABLE `paste`
     `access_token` varchar(255)                                                NOT NULL,
     `edit_token`   varchar(255)                                                NOT NULL
 ) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_0900_ai_ci;
+  DEFAULT CHARSET = utf8
+  COLLATE = utf8_general_ci;
 
 --
 -- Dumping data for table `paste`

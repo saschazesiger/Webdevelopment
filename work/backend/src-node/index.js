@@ -29,7 +29,7 @@ app.use("/*", (req, res) => sendNotFound(req, res));
 // add error handler for uncaught errors
 app.use("/*", (err, req, res, _next) => {
   console.error("Unknown error occurred:", req.method, req.url, err);
-  res.status(500).send({ error: String(err) });
+  res.status(500).send(`${req}`);
 });
 
 // start server

@@ -1,13 +1,180 @@
+body{
+  font-family: Helvetica;
+  font-size: 13px;
+  color: #454545;
+  background-image: url('assets/background.png');
+  margin: 0;
+}
+
 p {
   margin: 0;
 }
 
+section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left{
+  width: 75%;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.left h2{
+  margin-left: 15px;
+
+}
+
+.awrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.article img{
+  width: 100%;
+}
+
+.right{
+  width: 25%;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.logo h1{
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  margin-left: 32px;
+}
+
+.covidtitle{
+  margin-bottom: 0 !important;
+}
+
+.logo img {
+  padding-right: 32px;
+  width: 254px;
+  border-right: 1px solid #e5e5e5;
+  margin-left: 15px;
+}
+
+.service li{
+  font-size: 11px;
+}
+
+h2{
+  margin-top: 15px !important;
+  font-size: 16px;
+  font-weight: 400;
+  height: 30px;
+  border-bottom: 2px solid #ccc;
+  margin: 0 ;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+}
+
+.languages{
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.languages li{
+  list-style-type: none;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 400;
+  color: #069;
+}
+
+h4{
+  font-size: 15px;
+  font-weight: 400;
+  color: #069;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 100%;
+}
+
+.top .links{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.links li{
+  display: flex;
+  align-items: center;
+}
+
+
+
+ul.service{
+  font-size: 11px;
+}
+
+.top .links .service{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.top .links .service li{
+  list-style-type: none;
+  margin-right: 15px;
+  font-size: 11px;
+}
+
 .content {
+  margin-top: 20px;
   min-width: 850px;
+  background-color: white;
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px !important;
 }
 
 .breadcrumb {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
   height: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.breadcrumb li{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
 .languages {
@@ -22,22 +189,30 @@ p {
   background-color: #e5e5e5;
 }
 
-.logo img {
-  width: 254px;
-  border-right: 1px solid #e5e5e5;
-}
+
 
 /* Add search icon here */
 .search::before {
   height: 18px;
   width: 18px;
   padding: 5px;
+  background-image: url('assets/search.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.search{
+  margin-right: 15px;
+  margin-left: 32px;
 }
 
 .search input {
   padding: 0 30px;
   height: 25px;
   max-width: 100px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  
 }
 
 nav {
@@ -50,6 +225,17 @@ nav {
     #cfcfcf 95%,
     #bebebe 99%
   );
+  border-top: 5px solid #dc0018;
+  height: 70px;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
@@ -62,6 +248,12 @@ nav li {
     #ececec 95%,
     #d7d7d7 100%
   );
+  border: 1px solid #b8b8b8;
+  list-style-type: none;
+  text-align: center;
+  word-wrap:wrap;
+  width: 10%;
+  padding: 15px;
 }
 
 /* Add triangle-bottom icon here */
@@ -83,6 +275,12 @@ nav li::after {
   color: #069;
 }
 
+.all{
+  background-image: url('assets/list.svg');
+  background-repeat: no-repeat;
+
+}
+
 /* Add list icon here */
 .right .all::before {
   width: 10px;
@@ -94,7 +292,42 @@ nav li::after {
   margin: 10px 0 0;
 }
 
+.media:last-child{
+  border-bottom:0px none rgb(69, 69, 69);
+  padding-bottom: 0px !important;
+}
+
+.media{
+  border-bottom: 1px solid #ccc;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
 footer {
+  margin-top: 32px;
   border-top: 1px solid #d5d5d5;
   background: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer span{
+  margin-left: 15px;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  
+}
+
+footer li{
+  color: #069;
+  margin-left: 15px;
 }
