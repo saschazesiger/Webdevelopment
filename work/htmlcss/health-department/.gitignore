@@ -1,5 +1,0 @@
-/debug.log
-/cypress/*
-!/cypress/integration
-!/cypress/support
-!/cypress/plugins
